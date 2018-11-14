@@ -121,7 +121,7 @@ nav.navbar{
 }
 
 .carousel-title {
-    max-width: 7em;
+    max-width: 8em;
     margin: 0 auto;
     font-size: 12vh;
     font-weight: bold;
@@ -131,6 +131,7 @@ nav.navbar{
 }
 
 .sub-carousel-title{
+    font-family: 'Permanent Marker', cursive;
     max-width: 10em;
     margin: 0 auto;
     padding-right: 3%;
