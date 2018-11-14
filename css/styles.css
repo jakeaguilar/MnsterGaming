@@ -121,7 +121,7 @@ nav.navbar{
 }
 
 .carousel-title {
-    max-width: 7em;
+    max-width: 8em;
     margin: 0 auto;
     font-size: 12vh;
     font-weight: bold;
@@ -131,6 +131,7 @@ nav.navbar{
 }
 
 .sub-carousel-title{
+    font-family: 'Permanent Marker', cursive;
     max-width: 10em;
     margin: 0 auto;
     padding-right: 3%;
@@ -163,4 +164,54 @@ nav.navbar{
     border-color: transparent;
     box-shadow: 0 0 2px 1px rgba(45, 48, 30, 0.5);
 
+}
+
+/* ABOUT */
+
+.about{
+    background-color: #222629;
+    z-index: -30;
+}
+
+.about-header{
+    color: #86C232;
+}
+
+.about-content{
+    color: #fff;
+}
+
+/* ABOUT TABS */
+.about .nav-tabs > .active > a,
+.about .nav-tabs > .active > a:hover,
+.about .nav-tabs > .active > a:focus {
+    font-weight: bold;
+    color: #86C232;
+    background-color: #fff;
+}
+
+.about .nav-tabs > li > a{
+    font-weight: bold;
+    color: #86C232;
+}
+
+.about .nav-tabs > .active > a:hover,
+.about .nav-tabs > .active > a:focus{
+    font-weight: bold;
+    color: #86C232;
+    background-color: #fff;
+}
+
+.about-tab-col{
+    margin: 0;
+    padding: 5px;
+}
+
+.about-tab-img{
+    width: 300px;
+    height: 300px;
+    padding: 7px;
+    border: 1px solid #7F7F7F;
+    border-radius: 5px;
+    max-width: 100%;
 }
