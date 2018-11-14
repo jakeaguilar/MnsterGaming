@@ -5,19 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>MnsterGaming</title>
 </head>
 <body>
-    
-
+    <!-- CAROUSEL & NAV -->
+    <nav class="navbar navbar-dark navbar-expand-lg" id="navigation">
+        <a href="#" class="navbar-brand">
+            <!-- <img src="images/MnsterGaming-TP_NB_TB.png" alt="LOGO" class="logo"> -->
+            <h3>MG</h3>
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggle"
+            aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Tournaments</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- CAROUSEL -->
+    <div class="container-fluid wrap carousel-section">
+        <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#heroCarousel" data-slide-to="1"></li>
+                <!-- <li data-target="#heroCarousel" data-slide-to="2"></li> -->
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item main-img1 active">
+                    <div class="carousel-caption">
+                        <h1 class="carousel-title">Mnster<span class="green-text-color exo-font">Gaming:</span>
+                            <span class="sub-carousel-title">A <span class="green-text-color exo-font">Discord</span> Community</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="carousel-item main-img2">
+                    <div class="carousel-caption">
+                        <h1 class="slide-2">Primarily <span class="white-text-color">Siege...</span></h1>
+                        <h5 class="slide-2-sub-header">We also love playing other games such as PUBG or Overwatch and discussing other topics such as coding!</h5>
+                        <a href="https://discord.gg/pSU9ynH" class="btn btn-lg btn-primary" role="button">Join Now!</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
 
 
 
     <script src="js/all.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
+
