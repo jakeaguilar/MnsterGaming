@@ -37,10 +37,10 @@ body {
 }
 
 /* NAVBAR */
-/* .logo{
-    width: 200px;
-    height: 100px;
-} */
+.logo{
+    width: 250px;
+    height: 90px;
+}
 
 nav.navbar{
     position: fixed;
