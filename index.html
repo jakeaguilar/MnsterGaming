@@ -24,7 +24,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
                 <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Tournaments</a></li>
+                <li class="nav-item"><a href="#tournaments" class="nav-link">Tournaments</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
@@ -173,7 +173,53 @@
 			</div>
 		</div>
 	</div>
-
+    <!-- TOURNAMENTS -->
+    <div class="container-fluid d-flex flex-row justify-content-center align-items-center tournaments" id="tournaments">
+        <div class="mnsteropen-container d-flex flex-column justify-content-center align-items-center text-center">
+			<h1 class="marker-font mnsteropen-header">MnsterOpen</h1>
+			<p>The first Rainbow 6 Siege tournament hosted by MnsterGaming!</p>
+			<p><span class="green-text-color">Date/Time: </span>January 19th, 2019 at 2pm PST</p>
+			<p><span class="green-text-color">Last Day to Register: </span>January 18th</p>
+			<p><span class="green-text-color">Buy-ins:</span></p>
+			<p><span class="green-text-color">Early: </span>Until December 19th for $5 per person </p>
+			<p><span class="green-text-color">Regular: </span>Dec. 20th - Jan. 4th for $10 per person </p>
+			<p><span class="green-text-color">Late: </span>Jan. 5th - Jan. 18th for $20 per person </p>
+			<p><span class="green-text-color">GRAND PRIZE: </span>$500</p>
+			<p><span class="green-text-color">Secondary Prizes: </span>TBD</p>
+			<h3 class="green-text-color">To Enter, Click below to go to the Paypal pool!</h3>
+			<a href="https://paypal.me/pools/c/89DanVv1H2" class="btn btn-lg btn-primary paypal-pool" role="button" target="_blank"><i class="fab fa-paypal"></i> PayPal Pool</a>
+			<h3 class="green-text-color">Upon Entering, Please use the contact form below to email us:</h3>
+			<p>Your Name</p>
+			<p>Uplay Name</p>
+			<p>Discord Name & Tag</p>
+			<p>Team Name, you wish to play for</p>
+			<br>
+			<p class="post-script">*if a single member, is paying for the whole teams entry, please write in all members information in "Message" area.</p>
+			<p class="post-script">*if minimum number of teams is not reached to run the tournament, ALL funds will be returned.</p>
+		</div>
+	</div>
+	<!-- CONTACT -->
+    <div class="contact-container" id="contact">
+        <div class="row contact-row">
+            <div class="form-container col-6 offset-3 text-center">
+                <h3 class="contact-header green-text-color">Contact Us</h3>
+                <form action="https://formspree.io/contact@mnstergaming.com" method="post" class="d-flex flex-column justify-content-center align-items-center">
+                    <input type="text" name="Full Name" class="form-control" placeholder="Full Name" required>
+					<input type="text" name="Uplay" class="form-control" placeholder="Uplay" required>
+					<input type="text" name="Discord" class="form-control" placeholder="Discord" required>
+					<input type="text" name="Team Name" class="form-control" placeholder="Team Name" required>
+                    <input type="text" name="Email" class="form-control" placeholder="Email" required>
+                    <textarea name="Message" class="form-control" placeholder="Message" cols="30" rows="10" required></textarea>
+                    <input type="submit" name="submit" class="form-control contact-submit" value="Send Message">
+                </form>
+            </div>
+        </div>
+    </div>
+	<!-- FOOTER -->
+	<footer class="footer d-flex flex-row justify-content-center align-items-center">
+		<p class="copyright">&copy; MnsterGaming. All Rights Reserved.</p>
+	</footer>
+	
     <script src="js/all.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
