@@ -252,3 +252,70 @@ nav.navbar{
 .paypal-pool{
     margin: 1em;
 }
+
+/* CONTACT */
+
+.contact-container{
+    background-color: #474B4F;
+}
+
+.form-container{
+    background-color: #474B4F;
+}
+
+.contact-header{
+    margin: 1em;
+}
+
+.contact-form{
+    margin: 25px;
+    border-radius: 2%;
+    font-family: inherit;
+    text-align: center;
+}
+
+.form-control{
+    background: transparent;
+    border: none;
+    outline: none;
+    background-color: #394141;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.form-control:click{
+    background: transparent;
+    border: none;
+    outline: none;
+    background-color: #394141;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+form input{
+    font-family: inherit;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form textarea{
+    font-family: inherit;
+    text-align: center;
+    margin: 5px;
+}
+
+.contact-submit{
+    width: fit-content;
+    font-family: inherit;
+    background-color: #86C232;
+    color: #222629;
+    border-radius: 2px;
+}
+
+.contact-submit:hover{
+    cursor: pointer;
+    background: #61892F;
+}
