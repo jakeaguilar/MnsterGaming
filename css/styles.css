@@ -319,3 +319,22 @@ form textarea{
     cursor: pointer;
     background: #61892F;
 }
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #252627;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-content: space-between; */
+}
+
+.copyright{
+    margin: 0;
+    margin-right: 20px;
+    align-self: center;
+    color: #86C232;
+}
