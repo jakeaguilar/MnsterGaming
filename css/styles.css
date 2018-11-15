@@ -226,8 +226,9 @@ nav.navbar{
 
 .riceking{
     transform: rotate(90deg);
-  
+}
 /* TOURNAMENTS */
+
 .tournaments{
     padding: 3em;
     width: 100%;
@@ -236,9 +237,9 @@ nav.navbar{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-
-
 }
+
+
 
 .mnsteropen-container{
     width: 75%;
