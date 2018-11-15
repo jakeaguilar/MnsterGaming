@@ -222,10 +222,10 @@ nav.navbar{
 
 /* TOURNAMENTS */
 .tournaments{
-    height: 100vh;
+    padding: 3em;
     width: 100%;
-    background:linear-gradient(rgba(107, 110, 112, .7),rgba(107, 110, 112, .7)), url(../images/tournaments-bg.jpg);
-    /* background:  url(../images/tournaments-bg.jpg);  */
+    /* background:linear-gradient(rgba(107, 110, 112, .7),rgba(107, 110, 112, .7)), url(../images/tournaments-bg.jpg); */
+    background:  url(../images/tournaments-bg.jpg); 
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,10 +236,15 @@ nav.navbar{
 .mnsteropen-container{
     width: 75%;
     padding: 3em;
-    background-color: rgba(45, 48, 30, .35);
+    background-color: rgba(45, 48, 30, .85);
     border-radius: 5px;
+    color: #fff;
 }
 
 .mnsteropen-header{
     color: #86C232;
+}
+
+.paypal-pool{
+    margin: 1em;
 }
