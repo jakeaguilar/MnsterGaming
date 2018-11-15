@@ -224,6 +224,9 @@ nav.navbar{
     max-width: 100%;
 }
 
+.riceking{
+    transform: rotate(90deg);
+  
 /* TOURNAMENTS */
 .tournaments{
     padding: 3em;
