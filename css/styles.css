@@ -40,6 +40,10 @@ body {
     font-family: 'Permanent Marker', cursive;
 }
 
+.post-script{
+    font-size: 18px;
+}
+
 /* NAVBAR */
 .logo{
     width: 250px;
