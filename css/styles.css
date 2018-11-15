@@ -1,0 +1,257 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css?family=Exo|Permanent+Marker|Ubuntu');
+/* 
+Font Families:
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Exo', sans-serif;
+*/
+/* 
+Color Theme:
+    #61892F Olive Green
+    #86C232 Dark lime green
+    #222629 Space Black/Grayish
+    #474B4F Medium gray
+    #6B6E70 lighter gray
+*/
+body {
+    position: relative;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Exo', sans-serif;
+    font-size: 3vh;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* OOCSS */
+.green-text-color{
+    color: #86C232;
+}
+
+.white-text-color{
+    color: #fff;
+}
+
+.exo-font{
+    font-family: 'Exo', sans-serif;
+}
+
+.marker-font{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.post-script{
+    font-size: 18px;
+}
+
+/* NAVBAR */
+.logo{
+    width: 250px;
+    height: 90px;
+}
+
+nav.navbar{
+    position: fixed;
+    top: 100;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
+.navbar-nav li a:hover{
+    background-color: transparent;
+}
+
+.navbar{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: (rgba(17, 17, 17, .5))
+} 
+
+.navbar .navbar-nav>li>a{
+    color: #fcfcfc !important ;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+.navbar .navbar-nav li a:active,
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav li a:focus{
+    color: #86C232 !important;
+    background-color: rgba(17, 17 , 17, .2);
+}
+
+/* Sticky Nav Bar */
+.fixed-nav {
+    background-color: #222629;
+    transition: background-color 1s ease-in-out;
+}
+
+.fixed-nav-out{
+    background-color: transparent;
+    transition: background-color 1s ease-in-out;
+}
+
+/* CAROUSEL */
+.wrap{
+    padding: 0px;
+}
+
+.carousel-inner .carousel-item{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.main-img1{
+    background:linear-gradient(rgba(107, 110, 112, .7),rgba(107, 110, 112, .7)), url(../images/mainimg1.gif);
+}
+
+.main-img2{
+    background:linear-gradient(rgba(107, 110, 112, .7),rgba(107, 110, 112, .7)), url(../images/mainimg2.gif);
+}
+
+.carousel-caption{
+    top: 35%;
+    bottom: auto;
+}
+
+.carousel-caption p{
+    color: #f7f7f7;
+    font-size: 16px;
+}
+
+.carousel-title {
+    max-width: 8em;
+    margin: 0 auto;
+    font-size: 12vh;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
+    line-height: .9;
+    text-align: center;
+}
+
+.sub-carousel-title{
+    font-family: 'Permanent Marker', cursive;
+    max-width: 10em;
+    margin: 0 auto;
+    padding-right: 3%;
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* CAROUSEL FREELANCE */
+.slide-2{
+    color: #86C232;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 800;
+    font-size: 52px;
+}
+
+.slide-2-sub-header{
+    font-size: 28px;
+
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #86C232;
+    border-color: transparent;
+}
+
+.btn-primary:hover{
+    background-color: #61892F;
+    border-color: transparent;
+    box-shadow: 0 0 2px 1px rgba(45, 48, 30, 0.5);
+
+}
+
+/* ABOUT */
+
+.about{
+    background-color: #222629;
+    z-index: -30;
+}
+
+.about-header{
+    color: #86C232;
+}
+
+.about-content{
+    color: #fff;
+}
+
+/* ABOUT TABS */
+.about .nav-tabs > .active > a,
+.about .nav-tabs > .active > a:hover,
+.about .nav-tabs > .active > a:focus {
+    font-weight: bold;
+    color: #86C232;
+    background-color: #fff;
+}
+
+.about .nav-tabs > li > a{
+    font-weight: bold;
+    color: #86C232;
+}
+
+.about .nav-tabs > .active > a:hover,
+.about .nav-tabs > .active > a:focus{
+    font-weight: bold;
+    color: #86C232;
+    background-color: #fff;
+}
+
+.about-tab-col{
+    margin: 0;
+    padding: 5px;
+}
+
+.about-tab-img{
+    width: 300px;
+    height: 300px;
+    padding: 7px;
+    border: 1px solid #7F7F7F;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.riceking{
+    transform: rotate(90deg);
+  
+/* TOURNAMENTS */
+.tournaments{
+    padding: 3em;
+    width: 100%;
+    /* background:linear-gradient(rgba(107, 110, 112, .7),rgba(107, 110, 112, .7)), url(../images/tournaments-bg.jpg); */
+    background:  url(../images/tournaments-bg.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.mnsteropen-container{
+    width: 75%;
+    padding: 3em;
+    background-color: rgba(45, 48, 30, .85);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.mnsteropen-header{
+    color: #86C232;
+}
+
+.paypal-pool{
+    margin: 1em;
+}

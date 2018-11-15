@@ -6,19 +6,202 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Javascript1</title>
+    <title>MnsterGaming</title>
 </head>
 <body>
-    
-    <h1>Heading 1</h1>
-
-
-
+    <!-- CAROUSEL & NAV -->
+    <nav class="navbar navbar-dark navbar-expand-lg" id="navigation">
+        <a href="#" class="navbar-brand">
+            <img src="images/MnsterGaming-NameLogo.png" alt="LOGO" class="logo">
+            <!-- <h3>MG</h3> -->
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggle"
+            aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#tournaments" class="nav-link">Tournaments</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- CAROUSEL -->
+    <div class="container-fluid wrap carousel-section">
+        <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#heroCarousel" data-slide-to="1"></li>
+                <!-- <li data-target="#heroCarousel" data-slide-to="2"></li> -->
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item main-img1 active">
+                    <div class="carousel-caption">
+                        <h1 class="carousel-title">Mnster<span class="green-text-color exo-font"> Gaming:</span></h1>
+                        <h3><span class="sub-carousel-title">A <span class="green-text-color exo-font">Discord</span> Community</span></h3>
+                    </div>
+                </div>
+                <div class="carousel-item main-img2">
+                    <div class="carousel-caption">
+                        <h1 class="slide-2">Primarily <span class="white-text-color">Siege...</span></h1>
+                        <h5 class="slide-2-sub-header">We also love playing other games such as PUBG or Overwatch and discussing other topics such as coding!</h5>
+                        <a href="https://discord.gg/pSU9ynH" class="btn btn-lg btn-primary" role="button">Join Now!</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- ABOUT -->
+    <div class="container-fluid about" id="about">
+		<h1 class="about-header text-center">About Us</h1>
+		<hr class="hr-style">
+		<ul class="nav nav-tabs nav-justified">
+			<li class="nav-item"><a class ="nav-link active" data-toggle="tab" href="#deity" role="tab" aria-controls="deity" aria-selected="true">Our Deity</a></li>
+			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#disciples" role="tab" aria-controls="disciples" aria-selected="false">Our Disciples</a></li>
+			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#worshipers" role="tab" aria-controls="worshipers" aria-selected="false">Our Worshipers</a></li>
+			<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tournament" role="tab" aria-controls="tournament" aria-selected="false">Our Tournament Staff</a></li>
+		</ul>
+		<div class="tab-content about-content">
+			<!-- DEITY TAB -->
+			<div id="deity" class="tab-pane fade show active" role="tabpanel" aria-labelledby="deity-tab">
+				<div class="d-flex flex-row justify-content-between align-items-center">
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-12">
+						<img src="images/cthulhu.jpg" alt="" class="about-tab-img img-fluid ">
+						<h3>Cthulhu.exe</h3>
+						<p>
+							The Deity of MnsterGaming. Legend says he founded MnsterGaming in May 2018, and has built it up since then. Okay, enough of that,
+							 but an extremely chill dude who loves being a part of a community. I primarily play Siege when I am not working, going to school, or coding. 
+							I mainly headed the development of our site, with the help of a couple others in our discord. Other than that feel free to pop me a DM in discord!
+                        </p>
+					</div>
+				</div>
+			</div>
+			<!-- DISCIPLES TAB -->
+			<div id="disciples" class="tab-pane fade" role="tabpanel" aria-labelledby="disciples-tab">
+				<div class="d-flex flex-row justify-content-between align-items-center">
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-4">
+						<img src="images/image0.jpg" alt="" class="about-tab-img img-fluid riceking">
+						<h3>Mr.RiceKing</h3>
+						<p>"Sales Manager and Vape Guru by day, Rage Streamer and Gamer by night."
+							I've been apart of MnsterGaming since May 2018 when the community was very first built and was offered an Administrator position to work 
+							alongside Cthulhu in creating one badass Rainbow 6 Siege community. I help do a bit of the Graphic Designs for the community as well as 
+							do a little bit of server side work on the discord. If you'd like to check out my stream or see some more of my graphic design work feel 
+							free to drop by whenever I am live! Here's the link: <a class="green-text-color"href="https://www.twitch.tv/riceking">https://www.twitch.tv/riceking</a></p>
+					</div>
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-4">
+						<img src="images/maxresdefault.jpg" alt="" class="about-tab-img img-fluid">
+						<h3>PVNDA</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis cumque, obcaecati dignissimos
+							voluptate quia esse.</p>
+					</div>
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-4">
+						<img src="images/maxresdefault.jpg" alt="" class="about-tab-img img-fluid">
+						<h3>MrGrantham</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis cumque, obcaecati dignissimos
+							voluptate quia esse.</p>
+					</div>
+				</div>
+			</div>
+			<!-- WORSHIPERS TAB -->
+			<div id="worshipers" class="tab-pane fade" role="tabpanel" aria-labelledby="worshipers-tab">
+				<div class="d-flex flex-row justify-content-between align-items-center">
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-3">
+						<img src="images/maxresdefault.jpg" alt="" class="about-tab-img img-fluid">
+						<h3>TX_Wrangler_BM</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis cumque, obcaecati dignissimos
+							voluptate quia esse.</p>
+					</div>
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-3">
+						<img src="images/maxresdefault.jpg" alt="" class="about-tab-img img-fluid">
+						<h3>TX_Wrangler_Jr</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis cumque, obcaecati dignissimos
+							voluptate quia esse.</p>
+					</div>
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-3">
+						<img src="images/maxresdefault.jpg" alt="" class="about-tab-img img-fluid">
+						<h3>Lorem Ipsum</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis cumque, obcaecati dignissimos
+							voluptate quia esse.</p>
+					</div>
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-3">
+						<img src="images/maxresdefault.jpg" alt="" class="about-tab-img img-fluid">
+						<h3>Lorem Ipsum</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis cumque, obcaecati dignissimos
+							voluptate quia esse.</p>
+					</div>
+				</div>
+			</div>
+			<!-- TOURNAMENT STAFF TAB -->
+			<div id="tournament" class="tab-pane fade" role="tabpanel" aria-labelledby="tournament-tab">
+				<div class="d-flex flex-row justify-content-between align-items-center">
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-3">
+						<img src="images/maxresdefault.jpg" alt="" class="about-tab-img img-fluid">
+						<h3>MrSkyQuackers</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis cumque, obcaecati dignissimos
+							voluptate quia esse.</p>
+					</div>
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-3">
+						<img src="images/maxresdefault.jpg" alt="" class="about-tab-img img-fluid">
+						<h3>Lorem ipsum</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis cumque, obcaecati dignissimos
+							voluptate quia esse.</p>
+					</div>
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-3">
+						<img src="images/maxresdefault.jpg" alt="" class="about-tab-img img-fluid">
+						<h3>Lorem ipsum</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis cumque, obcaecati dignissimos
+							voluptate quia esse.</p>
+					</div>
+					<div class="d-flex flex-column justify-content-center align-items-center about-tab-col col-md-3">
+						<img src="images/maxresdefault.jpg" alt="" class="about-tab-img img-fluid">
+						<h3>Lorem Ipsum</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus debitis cumque, obcaecati dignissimos
+							voluptate quia esse.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- TOURNAMENTS -->
+    <div class="container-fluid d-flex flex-row justify-content-center align-items-center tournaments" id="tournaments">
+        <div class="mnsteropen-container d-flex flex-column justify-content-center align-items-center text-center">
+			<h1 class="marker-font mnsteropen-header">MnsterOpen</h1>
+			<p>The first Rainbow 6 Siege tournament hosted by MnsterGaming!</p>
+			<p><span class="green-text-color">Date/Time: </span>January 19th, 2019 at 2pm PST</p>
+			<p><span class="green-text-color">Last Day to Register: </span>January 18th</p>
+			<p><span class="green-text-color">Buy-ins:</span></p>
+			<p><span class="green-text-color">Early: </span>Until December 19th for $5 per person </p>
+			<p><span class="green-text-color">Regular: </span>Dec. 20th - Jan. 4th for $10 per person </p>
+			<p><span class="green-text-color">Late: </span>Jan. 5th - Jan. 18th for $20 per person </p>
+			<p><span class="green-text-color">GRAND PRIZE: </span>$500</p>
+			<p><span class="green-text-color">Secondary Prizes: </span>TBD</p>
+			<h3 class="green-text-color">To Enter, Click below to go to the Paypal pool!</h3>
+			<a href="https://paypal.me/pools/c/89DanVv1H2" class="btn btn-lg btn-primary paypal-pool" role="button" target="_blank"><i class="fab fa-paypal"></i> PayPal Pool</a>
+			<h3 class="green-text-color">Upon Entering, Please use the contact form below to email me:</h3>
+			<p>Your Name</p>
+			<p>Uplay Name</p>
+			<p>Discord Name & Tag</p>
+			<p>Team Name, you wish to play for</p>
+			<br>
+			<p class="post-script">*if a single member, is paying for the whole teams entry, please write in all members information.</p>
+			<p class="post-script">*if minimum number of teams is not reached to run the tournament, ALL funds will be returned.</p>
+		</div>
+    </div>
     <script src="js/all.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
