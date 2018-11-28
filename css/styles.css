@@ -224,14 +224,19 @@ nav.navbar{
     max-width: 100%;
 }
 
+.about-content{
+    font-size: 20px;
+}
+
 .riceking{
     transform: rotate(90deg);
+}
   
 /* TOURNAMENTS */
 .tournaments{
     padding: 3em;
     width: 100%;
-    /* background:linear-gradient(rgba(107, 110, 112, .7),rgba(107, 110, 112, .7)), url(../images/tournaments-bg.jpg); */
+     /* background:linear-gradient(rgba(107, 110, 112, .7),rgba(107, 110, 112, .7)), url(../images/tournaments-bg.jpg); */
     background:  url(../images/tournaments-bg.jpg); 
     background-attachment: fixed;
     background-size: cover;
