@@ -182,7 +182,7 @@ nav.navbar{
 .about{
     background-color: #222629;
     z-index: -30;
-    height: 1000px;
+    height: auto;
 }
 
 .about-header{
@@ -270,7 +270,7 @@ nav.navbar{
 
 .contact-container{
     background-color: #474B4F;
-    height: 750px;
+    height: auto;
 }
 
 .form-container{
