@@ -14,13 +14,7 @@ Color Theme:
     #474B4F Medium gray
     #6B6E70 lighter gray
 */
-html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
+
 
 body {
     position: relative;
@@ -29,6 +23,7 @@ body {
     font-size: 3vh;
     margin: 0 auto;
     padding: 0 auto;
+    overflow-x: hidden;
 }
 
 /* OOCSS */
