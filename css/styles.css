@@ -182,10 +182,12 @@ nav.navbar{
 .about{
     background-color: #222629;
     z-index: -30;
+    height: 1000px;
 }
 
 .about-header{
     color: #86C232;
+    padding-top: 74px;
 }
 
 .about-content{
@@ -268,6 +270,7 @@ nav.navbar{
 
 .contact-container{
     background-color: #474B4F;
+    height: 800px;
 }
 
 .form-container{
