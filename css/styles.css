@@ -40,10 +40,6 @@ body {
     font-family: 'Permanent Marker', cursive;
 }
 
-.post-script{
-    font-size: 18px;
-}
-
 /* NAVBAR */
 .logo{
     width: 250px;
@@ -174,91 +170,7 @@ nav.navbar{
 
 }
 
-/* ABOUT */
-
-.about{
-    background-color: #222629;
-    z-index: -30;
-}
-
-.about-header{
-    color: #86C232;
-}
-
-.about-content{
-    color: #fff;
-}
-
-/* ABOUT TABS */
-.about .nav-tabs > .active > a,
-.about .nav-tabs > .active > a:hover,
-.about .nav-tabs > .active > a:focus {
-    font-weight: bold;
-    color: #86C232;
-    background-color: #fff;
-}
-
-.about .nav-tabs > li > a{
-    font-weight: bold;
-    color: #86C232;
-}
-
-.about .nav-tabs > .active > a:hover,
-.about .nav-tabs > .active > a:focus{
-    font-weight: bold;
-    color: #86C232;
-    background-color: #fff;
-}
-
-.about-tab-col{
-    margin: 0;
-    padding: 5px;
-}
-
-.about-tab-img{
-    width: 300px;
-    height: 300px;
-    padding: 7px;
-    border: 1px solid #7F7F7F;
-    border-radius: 5px;
-    max-width: 100%;
-}
-
-.riceking{
-    transform: rotate(90deg);
-}
-/* TOURNAMENTS */
-
-.tournaments{
-    padding: 3em;
-    width: 100%;
-    /* background:linear-gradient(rgba(107, 110, 112, .7),rgba(107, 110, 112, .7)), url(../images/tournaments-bg.jpg); */
-    background:  url(../images/tournaments-bg.jpg); 
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-
-.mnsteropen-container{
-    width: 75%;
-    padding: 3em;
-    background-color: rgba(45, 48, 30, .85);
-    border-radius: 5px;
-    color: #fff;
-}
-
-.mnsteropen-header{
-    color: #86C232;
-}
-
-.paypal-pool{
-    margin: 1em;
-}
-
 /* CONTACT */
-
 .contact-container{
     background-color: #474B4F;
 }
@@ -268,10 +180,14 @@ nav.navbar{
 }
 
 .contact-header{
-    margin: 1em;
+    margin-top: .5em;
+    margin-bottom: 1em;
 }
-
 .contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 25px;
     border-radius: 2%;
     font-family: inherit;
@@ -283,7 +199,7 @@ nav.navbar{
     border: none;
     outline: none;
     background-color: #394141;
-    color: #ffffff;
+    /* color: #ffffff; */
     font-size: 18px;
     margin-bottom: 16px;
 }
@@ -320,21 +236,5 @@ form textarea{
 }
 
 .contact-submit:hover{
-    cursor: pointer;
     background: #61892F;
-}
-
-/* FOOTER */
-
-.footer{
-    width: 100%;
-    height: 50px;
-    background-color: #252627;
-}
-
-.copyright{
-    margin: 0;
-    margin-right: 20px;
-    align-self: center;
-    color: #86C232;
 }
